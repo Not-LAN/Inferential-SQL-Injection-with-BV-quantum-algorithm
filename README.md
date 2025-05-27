@@ -1,68 +1,55 @@
 
-# Inferential SQL Injection using Bernstein-Vazirani quantum algloritm 
+# 🧬 Inferential SQL Injection Using the Bernstein-Vazirani Quantum Algorithm
 
-This code belongs to an experiment presenting a new method to perform Inferential SQL Injections using the advantages offered by the Bernstein-Vazirani algorithm in a quantum device. It will examine the SQL vulnerability vector contained in WebGoat training tool, a vulnerable web application from OWASP's Broken Web Application Project showing a possible way for exploiting it by injecting boolean conditions and at the same time triggering the hidden secret string problem in which the Bernstein-Vazirani algorithm is applied.
+This project explores an innovative method of performing **Inferential SQL Injection** attacks by leveraging the **Bernstein-Vazirani quantum algorithm**. It demonstrates a quantum-enhanced approach to exploit SQL vulnerabilities, using boolean logic and pattern inference embedded within quantum computation.
 
+The experiment targets the SQL injection vector in **OWASP WebGoat**, a vulnerable web application designed for training and demonstration purposes. By injecting boolean-based payloads and applying the **Bernstein-Vazirani algorithm**, the attack simulates solving the "hidden string problem"—revealing how quantum techniques can potentially amplify traditional attack methods in the post-NISQ era.
 
-For more reference on the experiment details please visit: https://www.linkedin.com/pulse/applying-quantum-bernsteinvazirani-algorithm-sql-fernando-vel%25C3%25A1zquez-/
+For more context and a deeper dive into the theory and results, see:  
+🔗 [Applying the Bernstein-Vazirani Algorithm to SQL Injections](https://www.linkedin.com/pulse/applying-quantum-bernsteinvazirani-algorithm-sql-fernando-vel%25C3%25A1zquez-/)
 
+---
 
-## Authors
+## 📦 Deployment
 
-- [@fvelazquez](https://www.github.com/fvelazquez-X)
+To run this project locally:
 
+1. **Convert the Jupyter Notebook to a Python script**:
+   ```bash
+   jupyter nbconvert --to script your_notebook.ipynb
+   ```
 
-## Acknowledgements
+2. **Ensure the `.py` file is created** in your working directory.
 
- - [Awesome qiskit learning resources]( https://qiskit.org/learn)
- - [Atacking the quantum internet](https://arxiv.org/abs/2005.04617)
- - [Enterprise tactics. ATT&CK](https://attack.mitre.org/tactics/enterprise/)
+3. **Execute the script** using Python:
+   ```bash
+   python your_notebook.py
+   ```
 
+---
 
-## Deployment
+## 📚 Documentation & Resources
 
-To run this project from a terminal using jupyter notebook:
+- [IBM Quantum Experience](https://quantum-computing.ibm.com/)
+- [Awesome Qiskit Learning Resources](https://qiskit.org/learn)
+- [MITRE ATT&CK Enterprise Tactics](https://attack.mitre.org/tactics/enterprise/)
+- [Attacking the Quantum Internet](https://arxiv.org/abs/2005.04617)
 
-- Firstly, you need to convert the jupyter notebook file which is in the format .ipynb to .py format using the jupyter nbconvert tool.
-```bash
-jupyter nbconvert --to <output format> <input notebook>
-```
+---
 
- Whereas, the <output format> is the desired output format. And the <input notebook> is the jupyter notbook filename.
+## 👥 Authors
 
-- Verify whether .py file is created in your working directory.
+- [@fvelazquez](https://github.com/fvelazquez-X)
 
-- Finally, you could run a jupyter notebook .ipynb file from command prompt using the converted .py file as shown below.
+---
 
-```bash
-   python MyFirstNotebook.py
-```
+## 💬 Feedback
 
-## Documentation
+If you have feedback or suggestions, contact:  
+📧 **jvelazqu@notlan.mx**
 
-[IBM Quantum Experience](https://quantum-computing.ibm.com/)
+---
 
+## 📝 License
 
-## Feedback
-
-If you have any feedback, please reach out to us at jvelazqu@redhat.com
-
-
-## 🚀 About Me
-
-- 🔭 I’m an offensive security passionate working at [Red Hat](https://www.redhat.com/en)  
-  
-
--  🔎 I’m currently learning more about [Quantum Technologies](https://quantum-explore.com/en/master/)   
-  
-
-- 📖 I recently wrote a book on Offensive Quantum Computing. Available at [Amazon](https://www.amazon.com/Introduction-Adversarial-Quantum-Computing-Practice-ebook/dp/B09YMJXQTX/ref=sr_1_1?crid=3VZONRJBAP2G3&keywords=fernando+velazquez+quantum&qid=1654154138&sprefix=%2Caps%2C138&sr=8-1)!!  
-  
-
-- ⚡ I publish articles on technology topics at  [Meer](https://www.meer.com/en/authors/390-fernando-velazquez)  
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
